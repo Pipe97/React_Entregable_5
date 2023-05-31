@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { getPokemonById } from "../../../services/getPoKemonById";
+import { getPokemonById } from "../../../services/getPokemonById";
+
 const statsTarget = ["hp", "attack", "defense", "speed"];
 
 const PokemonCard = ({ pokemonId }) => {
