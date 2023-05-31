@@ -1,0 +1,31 @@
+.logo-container img {
+  max-width: 100%;
+}
+
+.home__title {
+  font-weight: 700px;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+
+  color: #fe1936;
+}
+
+.home__description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  text-align: center;
+
+  color: #302f2f;
+}
+
+.home__form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
