@@ -1,17 +1,18 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../components/common/Layout/Layout";
 import ProtectedRoute from "../components/common/ProtectedRoute";
-import Home from "../pages/Home/Home";
+
 import Pokedex from "../pages/Pokedex/Pokedex";
 import { pokedexLoader } from "./pokedexLoader";
 import PokemonDetail from "../pages/PokemonDetail/PokemonDetail";
+import Home from "../pages/home/Home";
 
 // El router de tipo "Browser" siempre necesita que se configure correctamente la plataforma de despliegue (Netlify, Vercel, Servidor).
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
   //   {
   //     path: "/pokedex",
