@@ -1,9 +1,10 @@
 import { useContext } from "react";
 import { UserNameContext } from "../../context/UserNameContext";
 import { useLocation, useNavigate } from "react-router-dom";
-import UserNameForm from "../../components/Home/UserNameForm/UserNameform";
+
 
 import "./Home.css";
+import UserNameForm from "../../components/homeUser/UserNameForm/UserNameForm";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ const Home = () => {
       <h1 className="home__title">¡Hola entrenador!</h1>
       <p className="home__description">Para poder comenzar, dame tu nombre</p>
       <div className="home__form-container">
-        <UserNameForm onSendName={handleSendName} />
+       <UserNameForm onSendName={handleSendName}/>
       </div>
     </section>
   );
