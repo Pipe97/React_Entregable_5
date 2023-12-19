@@ -1,0 +1,392 @@
+.pokecard {
+  width: 100%;
+  max-width: 250px;
+  font-size: 1rem;
+  border-radius: 0.5em;
+  border: 0.5em solid currentColor;
+  margin-bottom: 1em;
+  cursor: pointer;
+  transition: transform 150ms ease;
+  background-color: #fff;
+}
+.pokecard:hover {
+  transform: scale(1.02);
+}
+.pokecard__header {
+  aspect-ratio: 2;
+  position: relative;
+  background-color: currentColor;
+}
+.pokecard__image {
+  position: absolute;
+  width: 55%;
+  bottom: -2em;
+  left: 50%;
+  transform: translate(-50%);
+}
+.pokecard__body {
+  padding-top: 3em;
+}
+.pokecard__name {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2em;
+}
+.pokecard__types {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2em;
+}
+
+.pokecard__type-item {
+  text-transform: capitalize;
+  position: relative;
+}
+
+.pokecard__type-item::before {
+  content: "/";
+  position: absolute;
+  left: -1em;
+}
+.pokecard__type-item:first-child::before {
+  content: "";
+}
+.pokecard__stats {
+  padding: 0.5em 0.5em 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  gap: 1.5em 0.2em;
+  justify-items: center;
+}
+.pokecard__stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  line-height: 2em;
+}
+.pokecard__stats-label{
+    color: gray;
+}
+
+.pokecard__stats-value{
+    color: currentColor;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.fire {
+    color: var(--fire-color);
+    
+}
+
+.water {
+    color: var(--water-color);
+    
+}
+
+.bug {
+    color: var(--bug-color);
+    
+}
+
+.normal {
+    color: var(--normal-color);
+    
+}
+
+.grass {
+    color: var(--grass-color);    
+}
+
+.fighting {
+    color: var(--fighting-color);    
+}
+
+.flying {
+    color: var(--flying-color);    
+}
+
+.poison {
+    color: var(--poison-color);    
+}
+
+.ground {
+    color: var(--ground-color);    
+}
+
+.rock {
+    color: var(--rock-color);    
+}
+
+.ghost {
+    color: var(--ghost-color);    
+}
+
+.steel {
+    color: var(--steel-color);    
+}
+
+.electric {
+    color: var(--electric-color);    
+}
+
+.psychic {
+    color: var(--psychic-color);    
+}
+
+.ice {
+    color: var(--ice-color);    
+}
+
+.dragon {
+    color: var(--dragon-color);    
+}
+
+.dark {
+    color: var(--dark-color);    
+}
+
+.fairy {
+    color: var(--fairy-color);    
+}
+
+.unknown {
+    color: var(--unknown-color);    
+}
+
+
+
+
+
+.bg-bug {
+    background-image: var(--bg-bug);
+}
+
+.bg-fire {
+    background-image: var(--bg-fire);
+}
+
+.bg-grass {
+    background-image: var(--bg-grass);
+}
+
+.bg-water {
+    background-image: var(--bg-water);
+}
+
+.bg-normal {
+    background-image: var(--bg-normal);
+}
+
+.bg-electric {
+    background-image: var(--bg-electric);
+} 
+
+.bg-ground {
+    background-image: var(--bg-ground);
+}
+
+.bg-poison {
+    background-image: var(--bg-poison);
+}
+
+.bg-fairy {
+    background-image: var(--bg-fairy);
+}
+
+.bg-flying {
+    background-image: var(--bg-flying);
+}
+
+.bg-steel {
+    background-image: var(--bg-steel);
+}
+
+.bg-rock {
+    background-image: var(--bg-rock);
+}
+
+.bg-fighting {
+    background-image: var(--bg-fighting);
+}
+
+.bg-ghost {
+    background-image: var(--bg-ghost);
+}
+
+.bg-ice {
+    background-image: var(--bg-ice);
+}
+
+.bg-dragon {
+    background-image: var(--bg-dragon);
+}
+
+.bg-dark {
+    background-image: var(--bg-dark);
+}
+
+.bg-psychic {
+    background-image: var(--bg-psychic);
+}
+
+
+@media (max-width: 600px) and (max-height: 800px){
+    
+    .pokecard {
+        width: 100%;
+        max-width: 320px;
+        font-size: 1rem;
+        border-radius: 0.5em;
+        border: 0.5em solid currentColor; 
+        margin-bottom: 1em;  
+        cursor: pointer;
+        transition: transform 150ms ease;
+        overflow-x: hidden;         
+    }
+    
+    .pokecard:hover {
+        transform: scale(1.02);
+    }
+    
+    
+    .pokecard__header {
+        aspect-ratio: 2;
+        position: relative;
+        background-color: currentColor;
+    }
+    
+    .pokecard__image {
+        position: absolute;
+        width: 60%;
+        bottom: -4em;
+        left: 50%;
+        transform: translateX(-50%);    
+    }
+    
+    .pokecard__body {
+        padding-top: 4em;
+    }
+    
+    .pokecard__name {
+        font-size: 2em;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    .pokecard__types {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+    
+    .pokecard__types-item {
+        text-transform: capitalize;
+        position: relative;
+        color: black;
+    }
+    
+    .pokecard__types-item::before {
+        content: '/'; 
+        position: absolute;  
+        left: -0.6em; 
+    }
+    
+    .pokecard__types-item:first-child::before {
+        content: '';
+    }
+    
+    .pokecard__type-sub {
+        text-align: center;
+        margin-top: -0.8em;
+        font-size: 0.7em;
+        text-transform: capitalize;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .divider {
+        width: 95%;
+    }
+    
+    .pokecard__stats {
+        padding: 0.5em 0.5em 1em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 1.5em 0.2em;
+    }
+    
+    .pokecard__stats-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 0.6em;
+        line-height: 2em;
+    }
+    
+    .pokecard__stats-label {
+        color: gray
+    }
+    
+    .pokecard__stats-value {
+        color: currentColor;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    
+    .fire {
+        color: var(--fire-color);
+        
+    }
+    
+    .water {
+        color: var(--water-color);
+        
+    }
+    
+    .bug {
+        color: var(--bug-color);
+        
+    }
+    
+    .normal {
+        color: var(--normal-color);
+        
+    }
+    
+    .grass {
+        color: var(--grass-color);
+        
+    }
+    
+    .bg-bug {
+        background-image: var(--bg-bug);
+    }
+    
+    .bg-fire {
+        background-image: var(--bg-fire);
+    }
+    
+    .bg-grass {
+        background-image: var(--bg-grass);
+    }
+    
+    .bg-water {
+        background-image: var(--bg-water);
+    }
+    
+    .bg-normal {
+        background-image: var(--bg-normal);
+    }
+    
+    .pokecard {
+        background-color: #fff;
+    }
+    
+}
+

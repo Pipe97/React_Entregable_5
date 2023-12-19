@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 40px;
+  width: auto;
+}
+
+.previousPage {
+  background-color: rgb(178, 34, 34);
+  border: none;
+  padding: 5px 15px;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  color: ghostwhite;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .bxs-left-arrow {
+    font-size: 1.3em;
+  }
+}
+
+.input__content {
+  padding: 0 22px;
+  display: inline-flex;
+  flex-direction: row;
+  background-color: ghostwhite;
+}
+
+.nextPage {
+  background-color: rgb(178, 34, 34);
+  border: none;
+  padding: 5px 15px;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  color: ghostwhite;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .bxs-right-arrow {
+    font-size: 1.3em;
+  }
+}
+.input__pagination {
+  padding: 5px 1px;
+  width: 25px;
+  height: 30px;
+  border: none;
+  font-size: 0.9rem;
+  font-family: "Comfortaa";
+  font-weight: bold;
+  color: rgb(178, 34, 34);
+}
+
+.poke__of {
+  background-color: ghostwhite;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.poke__of-span {
+  font-size: 0.9rem;
+}

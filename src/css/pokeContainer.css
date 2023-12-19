@@ -1,0 +1,29 @@
+.poke__container{
+    width: 1024px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax( 230px, 1fr));
+    gap: 2em;
+}
+
+
+@media (max-width: 576px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .poke__container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        overflow-x: hidden;
+            
+} 
+    
+}

@@ -1,0 +1,75 @@
+/*------------------------RESET-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #ccc;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+:root {
+    --normal-color:gray;
+    --fire-color: #b22222;
+    --water-color: rgb(30, 144, 255);
+    --bug-color: rgb(34, 151, 112);
+    --grass-color: rgb(32, 178, 170);
+    --fighting-color:#f5850e;
+    --flying-color:#ad94b8;
+    --poison-color:#8f41cb;
+    --ground-color:#b199b5;
+    --rock-color:#b6a0b0;
+    --ghost-color:#704170;
+    --steel-color:#60a1b8;
+    --electric-color:#fac000;
+    --psychic-color:#ef4179;
+    --ice-color:#3fd8ff;
+    --dark-color:#50413f;
+    --fairy-color:#ef71ef;
+    --dragon-color:#5061e1;
+    --unknown-color:black;
+    
+    
+    --bg-grass: linear-gradient(to top left, #33cc75 0%, #006666 86%);
+    --bg-fire: linear-gradient(to bottom right, #ff0000 0%, #ffff00 86%);
+    --bg-water: linear-gradient(to top left, #00ffff 0%, #0000ff 86%) ;
+    --bg-bug: linear-gradient(to bottom right, #339966 0%, #669999 86%);
+    --bg-normal: linear-gradient(to top left, #ffffff 0%, #666699 86%);
+    --bg-electric: linear-gradient(270deg, rgba(242, 237, 16, 1.0), rgba(132, 139, 5, 1.0));
+    --bg-ground: linear-gradient(270deg, rgba(199, 168, 183, 1.0), rgba(89, 64, 82, 1.0));
+    --bg-poison:linear-gradient(270deg, rgba(103, 10, 97, 1.0), rgba(181, 13, 215, 1.0));
+    --bg-fairy:linear-gradient(270deg, rgba(109, 53, 109, 1.0), rgba(212, 102, 224, 1.0));
+    --bg-flying: linear-gradient(270deg, rgba(109, 53, 109, 1.0), rgba(145, 98, 150, 1.0));
+    --bg-steel: linear-gradient(270deg, rgba(193, 133, 193, 1.0), rgba(66, 63, 66, 1.0));
+    --bg-rock: linear-gradient(270deg, rgba(72, 63, 72, 1.0), rgba(173, 162, 174, 1.0));
+    --bg-fighting: linear-gradient(270deg, rgba(164, 137, 25, 1.0), rgba(184, 160, 32, 1.0));
+    --bg-ghost: linear-gradient(270deg, rgba(173, 99, 218, 1.0), rgba(22, 8, 27, 1.0));
+    --bg-ice: linear-gradient(270deg, rgba(27, 85, 125, 1.0), rgba(52, 152, 189, 1.0));
+    --bg-dragon: linear-gradient(270deg, rgba(57, 27, 125, 1.0), rgba(127, 183, 204, 1.0));
+    --bg-dark: linear-gradient(270deg, rgba(5, 1, 15, 1.0), rgba(12, 64, 83, 1.0));
+    --bg-psychic: linear-gradient(270deg, rgba(240, 97, 99, 1.0), rgba(128, 60, 119, 1.0));
+    
+    
+}
+
+@media (max-width: 600px) and (max-height: 800px) {
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+    
+}
