@@ -7,7 +7,7 @@ const Home = () => {
     <div className="pokedex__home-container">
       <div className="container-info">
         <div className="logo-container">
-          <img src="/public/logo-pokedex.png" alt="pokedex" />
+          <img src="/logo-pokedex.png" alt="pokedex" />
         </div>
 
         <div className="container_text">

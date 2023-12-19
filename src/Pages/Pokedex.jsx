@@ -71,7 +71,7 @@ const Pokedex = () => {
               <i className="bx bx-x poke__exit"></i>
             </Link>
             <img
-              src="/public/pokedex-icon2.png"
+              src="/pokedex-icon2.png"
               alt=""
               className="poke__icon-2"
             />
