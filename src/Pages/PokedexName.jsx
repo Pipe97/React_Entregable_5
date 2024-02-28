@@ -129,7 +129,7 @@ const PokedexName = () => {
                   <hr className="divider" />
                   <img
                     className="poke__icon-232"
-                    src="/public/icon-group-232.png"
+                    src="/icon-group-232.png"
                     alt=""
                   />
                 </div>
@@ -199,7 +199,7 @@ const PokedexName = () => {
                       <h2>Movements</h2>
                       <hr className="divider" />
                       <img
-                        src="/public/icon-group-232.png"
+                        src="/icon-group-232.png"
                         alt=""
                         className="poke__icon-232"
                       />
